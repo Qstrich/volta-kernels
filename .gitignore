@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Secrets and local config
+.env
+.env.*
+*.pem
+*.key
+
+# Logs, editor
+*.log
+.vscode/
+.idea/
+.DS_Store
+
+# Build output (paths anchored so source is never hidden)
+/ext/build/
+*.o
+*.so
+.ninja_*
+
+# Profiler traces and tensors
+*.pt
+*.npz
+*.trace.json
+
+# Local only (internal addresses and accounts)
+/HANDOFF.md
+/scripts/run36.sh
